@@ -1,0 +1,13 @@
+[programs.localnet]
+nftstore = "cCSrAM5p4R3tzUnja7hHCMTzdWgvwKhdKwe3cchRVLz"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+# cluster = "https://api.devnet.solana.com"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 10000000 tests/nftstore.js"
